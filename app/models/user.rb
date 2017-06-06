@@ -15,5 +15,5 @@ class User < ActiveRecord::Base
 
   has_secure_password
 
-  enum role: [:admin, :member]
+  enum role: [:admin, :moderator, :member]
 end
